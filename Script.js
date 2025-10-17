@@ -12,3 +12,8 @@ tombolTutup.addEventListener("click", () => {
   modal.style.display = "none";
   overlay.style.display = "none";
 });
+
+overlay.addEventListener('click', () => {
+  modal.style.display = 'none';
+  overlay.style.display = 'none';
+});
